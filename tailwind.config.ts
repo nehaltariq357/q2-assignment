@@ -11,8 +11,11 @@ const config: Config = {
       fontFamily: {
         serif: ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
       },
+      colors:{
+     customColor:"#8570f0"
+      },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 };
 export default config;

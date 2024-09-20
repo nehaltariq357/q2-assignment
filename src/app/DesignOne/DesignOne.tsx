@@ -5,7 +5,7 @@ const DesignOne = () => {
   return (
     <>
       <main className="flex h-screen">
-        <div className="g-gray-300 w-[70%]  flex justify-center items-center">
+        <div className=" w-[70%]  flex justify-center items-center">
           <div className=" ">
             <p className="font-serif m-10 text-2xl text-orange-600">
               Next Js Developer.
@@ -25,7 +25,7 @@ const DesignOne = () => {
           </div>
         </div>
 
-        <div className="b-blue-300 w-1/2 flex justify-center items-center ">
+        <div className=" w-1/2 flex justify-center items-center ">
           <div className="mr-16 w-fit">
             {" "}
             <Image
