@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import img from "../image/img.jpg";
+
 const DesignOne = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const DesignOne = () => {
               width={1000}
               height={500}
             />
+            {/* <ul><li className='bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-800 w-fit'> <Link href="/">Go Back</Link></li></ul> */}
           </div>
         </div>
       </main>

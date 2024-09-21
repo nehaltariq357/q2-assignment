@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/page";
+import Link from "next/link";
 const DesignTwo = () => {
   return (
     <>
@@ -17,8 +18,9 @@ const DesignTwo = () => {
               I'm a web developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.
               </p>
               <div className="mb-32">
-                <button className="bg-customColor text-white rounded-lg hover:bg-violet-700 text-xs px-4 py-3 mr-6">About Me</button>
+                <button className="bg-customColor cursor-pointer text-white rounded-lg hover:bg-violet-700 text-xs px-4 py-3 mr-6">About Me</button>
                 <button className="bg-black text-white rounded-lg hover:bg-slate-700 text-xs px-4 py-3">My Work > </button>
+                
               </div>
               <div className="flex justify-items-start">
                 <ul className="flex gap-[90px]">
